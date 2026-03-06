@@ -8,6 +8,14 @@ noise = np.random.randn(100,1)
 
 y = 4 * X + 3 + noise
 
+plt.scatter(X, y)
+
+plt.title("Training Data")
+plt.xlabel("X")
+plt.ylabel("y")
+
+plt.show()
+
 w = np.random.randn()
 b = np.random.randn()
 
